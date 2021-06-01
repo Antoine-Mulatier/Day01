@@ -1,0 +1,1000 @@
+  872  ll
+  873  git status
+  874  git add 06\ Normes\ Certification\ Legislations\ /
+  875  git status
+  876  git commit -c "adding lecture supports in normes certif legi"
+  877  git commit -m "adding lecture supports in normes certif legi"
+  878  git push
+  879  ll
+  880  python
+  881  ll
+  882  cd ..
+  883  ll
+  884  node test.js 
+  885  sudo apt install nodejs
+  886  ll
+  887  node test.js 
+  888  ll
+  889  cd /home/apprenant/Bureau/g/it-akademy_perso/
+  890  git status
+  891  git add tmp/
+  892  git status
+  893  git commit -m "adding tmp folder"
+  894  git push
+  895  cd ../../
+  896  cd ../Téléchargements/
+  897  ll
+  898  cat ch7.
+  899  cat ch7.bin
+  900  rm ch7.pcap 
+  901  cat ch7.bin
+  902  hydra
+  903  sudo apt install hydra
+  904  virtualbox
+  905  cd Bureau
+  906  mkdir vm/data
+  907  mkdir -p vm/data
+  908  cd vm
+  909  vagrant init
+  910  nano Vagrantfile
+  911  vagrant up
+  912  sudo apt update
+  913  sudo apt install apache2 mysql-server
+  914  sudo apt-add-repository ppa:ondrej/php
+  915  sudo apt update
+  916  sudo apt install php7.4
+  917  sudo nano /etc/php/7.4/apache2/php.ini
+  918  sudo  service apache2 restart
+  919  vagrant ssh
+  920  nano Vagrantfile
+  921  vagrant reload
+  922  vagrant ssh
+  923  sudo nano ~/ssh/known_hosts
+  924  sudo nano ~/.ssh/known_hosts
+  925  vagrant ssh
+  926  vagrant reload
+  927  vagrant ssh
+  928  vagrant reload
+  929  vagrant ssh
+  930  virtualbox
+  931  cd
+  932  cd Bureau
+  933  mkdir -p laravel/data
+  934  mkdir laravel
+  935  cd laravel
+  936  mkdir laravel
+  937  cd laravel
+  938  mkdir data
+  939  vagrant init
+  940  nano Vagrantfile
+  941  vagrant up
+  942  nano Vagrantfile
+  943  vagrant up
+  944  nano Vagrantfile
+  945  vagrant up
+  946  nano Vagrantfile
+  947  vagrant init
+  948  nano Vagrantfile
+  949  vagrant up
+  950  nano Vagrantfile
+  951  vagrant up
+  952  vagrant ssh
+  953  sudo nano ~/.ssh/known_hosts
+  954  vagrant ssh
+  955  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  956  php -r "if (hash_file('sha384', 'composer-setup.php') === 'baf1608c33254d00611ac1705c1d9958c817a1a33bce370c0595974b342601bd80b92a3f46067da89e3b06bff421f182') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  957  php composer-setup.php
+  958  php -r "unlink('composer-setup.php');"
+  959  vagrant reload
+  960  vagrant ssh
+  961  nano Vagrantfile
+  962  vagrant reload
+  963  nano Vagrantfile
+  964  vagrant reload
+  965  vagrant ssh
+  966  cd Bureau
+  967  cd
+  968  cd Bureau
+  969  mkdir eval
+  970  cd eval
+  971  mkdir data
+  972  vagrant init
+  973  nano Vagrantfile
+  974  vagrant up
+  975  vagrant ssh
+  976  sudo nano ~/.ssh/known_hosts
+  977  vagrant ssh
+  978  git init
+  979  git status
+  980  git add --all
+  981  git status
+  982  git config user.name "benPerus"
+  983  git config user.email "ben.perus@gmail.com"
+  984  git commit "first commit"
+  985  git commit -m "first commit"
+  986  git status
+  987  git remote
+  988  git remote add origin https://github.com/benPerus/laravel.git
+  989  git remote
+  990  git push origin master
+  991  cd Bureau
+  992  mkdir -p VM/data
+  993  cd VM
+  994  vagrant init
+  995  nano Vagrantfile
+  996  vagrant up
+  997  vagrant ssh
+  998  vagrant destroy
+  999  vagrant init laravel/homestead
+ 1000  cd laravel
+ 1001  cd ..
+ 1002  cd laravel
+ 1003  vagrant init laravel/homestead
+ 1004  mkdir data
+ 1005  nano Vagrantfile
+ 1006  vagrant up
+ 1007  vagrant -v
+ 1008  sudo apt remove vagrant
+ 1009  cd ..
+ 1010  vagrant -v
+ 1011  mkdir -p Laravel/data
+ 1012  cd Laravel
+ 1013  vagrant init laravel/homestead
+ 1014  nano Vagrantfile
+ 1015  vagrant up
+ 1016  vagrant ssh
+ 1017  vagrant reload
+ 1018  vagrant ssh
+ 1019  vagrant -v
+ 1020  vagrant ssh
+ 1021  vagrant up
+ 1022  vagrant ssh
+ 1023  vagrant halt
+ 1024  vagrant destroy
+ 1025  cd ..
+ 1026  mkdir -p vm/data
+ 1027  cd vm
+ 1028  vagrant init
+ 1029  nano Vagrantfile
+ 1030  vagrant up
+ 1031  vagrant ssh
+ 1032  sudo nano ~/.ssh/known_hosts
+ 1033  vagrant ssh
+ 1034  mkdir front
+ 1035  ls
+ 1036  vagrant ssh
+ 1037  cd data
+ 1038  git init
+ 1039  git status
+ 1040  git add --all
+ 1041  git status
+ 1042  git config user.name "benPerus"
+ 1043  git config user.email "ben.perus@gmail.com"
+ 1044  git commit -m "first commit"
+ 1045  git status
+ 1046  git remote
+ 1047  git remote add origin https://github.com/benPerus/api_laravel.git
+ 1048  git push origin master
+ 1049  vagrant up
+ 1050  vagrant ssh
+ 1051  vagrant ssh-config
+ 1052  vagrant ssh
+ 1053  cd data
+ 1054  ls
+ 1055  git init
+ 1056  git status
+ 1057  git add --all
+ 1058  git status
+ 1059  git config user.name "benPerus"
+ 1060  git config user.email "ben.perus@gmail.com"
+ 1061  git commit -m "first commit"
+ 1062  git status
+ 1063  git remote
+ 1064  git remote add origin https://github.com/benPerus/nodeJS.git
+ 1065  git push origin master
+ 1066  cd Bureau
+ 1067  mkdir NodeJS
+ 1068  cd NodeJS/
+ 1069  vagrant init
+ 1070  nano Vagrantfile 
+ 1071  vagrant up
+ 1072  mkdir data
+ 1073  vagrant up
+ 1074  nano Vagrantfile 
+ 1075  vagrant reload
+ 1076  vagrant ssh
+ 1077  ssh -config
+ 1078  vagrant ssh
+ 1079  vagrant ssh -config
+ 1080  vagrant ssh-config
+ 1081  vagrant ssh
+ 1082  vagrant ssh-config
+ 1083  vagrant ssh
+ 1084  cd ..
+ 1085  mkdir nodeEval
+ 1086  cd nodeEval/
+ 1087  mkdir data
+ 1088  vagrant init
+ 1089  nano Vagrantfile 
+ 1090  vagrant up
+ 1091  vagrant ssh
+ 1092  vagrant ssh-config
+ 1093  vagrant ssh
+ 1094  nano Vagrantfile 
+ 1095  vagrant ssh
+ 1096  git clone https://bitbucket.org/garronde/it-akademy
+ 1097  ls
+ 1098  cd it-akademy/
+ 1099  ls
+ 1100  cd 00
+ 1101  cd 00\ Recherche\ de\ Stage/
+ 1102  nano conv orange.txt
+ 1103  cat conv 
+ 1104  rm conv convorange.txt
+ 1105  ls
+ 1106  nano convorange.txt
+ 1107  ls
+ 1108  cd..
+ 1109  cd ..
+ 1110  ls
+ 1111  git status
+ 1112  git add *
+ 1113  git commit -m 'adding orange mail conv'
+ 1114  git push
+ 1115  git status
+ 1116  git log
+ 1117  git status
+ 1118  git rm Misc/2019-10-21\ 09.52.03.jpg 
+ 1119  git rm Misc/2019-10-28 08.58.09.jpg
+ 1120  git rm Misc/µ.jpg
+ 1121  git rm Misc/*.jpg
+ 1122  git status
+ 1123  git rm Misc/*
+ 1124  git status
+ 1125  git rm Misc/*.pdf
+ 1126  git rm Misc/2019-10-28 08.58.09.jpg
+ 1127  git rm  "Misc/ITA-Le R\303\251pertoire National des Certifications Professionnelles (RNCP) (R\303\251sum\303\251 descriptif de la certification) - Commission nationale de la certification professionnelle.pdf"
+ 1128  git rm  Misc/ITA-Le R\303\251pertoire National des Certifications Professionnelles (RNCP) (R\303\251sum\303\251 descriptif de la certification) - Commission nationale de la certification professionnelle.pdf
+ 1129  git rm Misc/ITA-*.pdf
+ 1130  git status
+ 1131  git commit -m 'removing misc folder to be renammed to admin'
+ 1132  git status
+ 1133  git add Administratif/*
+ 1134  git status
+ 1135  git commit -m 'adding admin folder'
+ 1136  git status
+ 1137  git add Misc/*
+ 1138  git commit -m 'adding Misc folder'
+ 1139  git push
+ 1140  git status
+ 1141  git add *
+ 1142  git status
+ 1143  git commit -m 'adding PSSI folder'
+ 1144  git push
+ 1145  volatility
+ 1146  sudo apt install volatility
+ 1147  git status
+ 1148  git add *
+ 1149  git commit -m 'adding ISO 27000'
+ 1150  git push
+ 1151  git status
+ 1152  cd it-akademy/
+ 1153  ll
+ 1154  git status
+ 1155  git add *
+ 1156  git status
+ 1157  git commit -m 'adding flags'
+ 1158  git status
+ 1159  git push
+ 1160  ll
+ 1161  cd it-akademy/
+ 1162  ll
+ 1163  git status
+ 1164  git add *
+ 1165  git status
+ 1166  git commit -m 'adding docs in PSSI'
+ 1167  git push
+ 1168  git status
+ 1169  rm 10\ Politique\ de\ securite/Principes\ a\ garder.txt 
+ 1170  git status
+ 1171  git add *
+ 1172  git status
+ 1173  git commit -c 'more flags'
+ 1174  git push
+ 1175  git commit -m 'more flags'
+ 1176  git push
+ 1177  git status
+ 1178  git add Misc/*
+ 1179  git commit -m 'adding windows white paper'
+ 1180  git add Books/*
+ 1181  git commit -m 'Adding Books Novel Folder'
+ 1182  git push
+ 1183  git status
+ 1184  git log
+ 1185  l
+ 1186  sls
+ 1187  ls
+ 1188  ssss
+ 1189  ls
+ 1190  git status
+ 1191  cd it-akademy/
+ 1192  git status
+ 1193  git add 10\ Politique\ de\ securite/*
+ 1194  git status
+ 1195  git rm '10 Politique de securite/PSSI Worldline.pdf'
+ 1196  git rm '10 Politique de securite/PSSI-CNRS.pdf'
+ 1197  git rm '10 Politique de securite/PSSI_Amiens.pdf'
+ 1198  git rm '10 Politique de securite/Principes de Securite.pdf'
+ 1199  git rm '10 Politique de securite/pssie_anssi.pdf'
+ 1200  git status
+ 1201  git commit -m 'update PSSI supports'
+ 1202  git status
+ 1203  git add *
+ 1204  git status
+ 1205  git commit -m 'ajout modele fiche de stage'
+ 1206  git push
+ 1207  apt-get install remina
+ 1208  sudo apt-get install remina
+ 1209  sudo apt-get install remmina
+ 1210  remmina 109.0.194.86:8989
+ 1211  apt-get update remmina
+ 1212  apt-get update
+ 1213  sudo apt-get update
+ 1214  sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+ 1215  sudo apt-get update
+ 1216  sudo apt-get install remmina remmina-plugin-rdp remmina-plugin-gnome libfreerdp-plugins-standard
+ 1217  apt delete remmina
+ 1218  apt remove remmina
+ 1219  sudo apt-get install remmina remmina-plugin-rdp remmina-plugin-vnc libfreerdp-plugins-standard 
+ 1220  sudo apt-get update remmina
+ 1221  sudo apt-get remmina
+ 1222  sudo apt-get install remmina
+ 1223  sudo apt-get install --only-upgrade remmina
+ 1224  sudo apt-get update
+ 1225  sudo apt-get update && apt-get upgrade remmina
+ 1226  sudo apt-get update && sudo apt-get upgrade remmina
+ 1227  ping 109.0.1.194
+ 1228  ls
+ 1229  ls -a
+ 1230  man ls
+ 1231  man mkdir
+ 1232  man cd
+ 1233  man .
+ 1234  man cd
+ 1235  cd
+ 1236  man mkdir
+ 1237  man man
+ 1238  pwd
+ 1239  ls
+ 1240  cd Documents
+ 1241  ls
+ 1242  git clone https://github.com/Antoine-Mulatier/Day00.git
+ 1243  ls
+ 1244  cd Day00
+ 1245  ls
+ 1246  git log
+ 1247  ls
+ 1248  mkdir ex02
+ 1249  git add .
+ 1250  git status
+ 1251  git commit
+ 1252  git commit -m "création ex02"
+ 1253  git push
+ 1254  git status
+ 1255  git log
+ 1256  git commit -m "création ex02"
+ 1257  git push
+ 1258  git log
+ 1259  git commit
+ 1260  git commit -m "création ex02"
+ 1261  man -m
+ 1262  man m
+ 1263  git log
+ 1264  git commit -m "création ex02"
+ 1265  ls
+ 1266  cd exo00
+ 1267  ls
+ 1268  cd ex00
+ 1269  ls
+ 1270  cd Planets
+ 1271  mkdir Real
+ 1272  mkdir StarWars
+ 1273  mkdir StarTrek
+ 1274  cd Real
+ 1275  mkdir Telluriques
+ 1276  mkdir Gazeuses
+ 1277  ls
+ 1278  cd ..
+ 1279  mkdir commands.txt
+ 1280  ls
+ 1281  man cat
+ 1282  cat > commands.txt
+ 1283  ls
+ 1284  cd DOc
+ 1285  cd Doc
+ 1286  cd Documents
+ 1287  ls
+ 1288  cd Day00
+ 1289  ls
+ 1290  cd ex00
+ 1291  ls
+ 1292  cd Planets
+ 1293  script commands.txt
+ 1294  cd..
+ 1295  cd ..
+ 1296  cd Planets
+ 1297  mv Jupiter Real
+ 1298  mv Jupiter.jpg Real
+ 1299  history > commands.txt
+ 1300  mv Lune.jpg Real
+ 1301  mv Mercure.jpg Real
+ 1302  mv Neptune.jpg Real
+ 1303  mv Pluton.jpg Real
+ 1304  mv saturn.jpg Real
+ 1305  mv saturn.png Real
+ 1306  mv Terre.jpg Real
+ 1307  mv Uranus.jpg Real
+ 1308  mv Venus.jpg Real
+ 1309  mv mars.jpeg Real
+ 1310  mv Naboo.png StarWars
+ 1311  mv Tatooine.jpg StarWars
+ 1312  mv Mustafar.png StarWars
+ 1313  mv Vulcan.jpg StarTrek
+ 1314  mv Coruscant.jpg StarWars
+ 1315  mv Taris.png StarWars
+ 1316  mv Risa.jpg StarTrek
+ 1317  mv JanusVI.jpg StarTrek
+ 1318  mv Andoria.jpg Startrek
+ 1319  ls
+ 1320  cd Real
+ 1321  ls
+ 1322  mv Mercure.jpg Telluriques
+ 1323  mv Venus.jpg Telluriques
+ 1324  mv Terre.jpg Telluriques
+ 1325  mv mars.jpeg Telluriques
+ 1326  ls
+ 1327  mv Lune.jpg Telluriques
+ 1328  mv Jupiter Gazeuses
+ 1329  mv Jupiter.jpg Gazeuses
+ 1330  mv Neptune.jpg Gazeuses/
+ 1331  mv saturn.png Gazeuses/
+ 1332  mv Uranus.jpg Gazeuses/
+ 1333  ls
+ 1334  cd ..
+ 1335  history > commands.txt
+ 1336  cd..
+ 1337  cd ..
+ 1338  cd ex01
+ 1339  ls
+ 1340  touch david.csv
+ 1341  ls
+ 1342  cd ..
+ 1343  cd ex00
+ 1344  git push
+ 1345  cd ..
+ 1346  cd ex01
+ 1347  cp alumni.csv php_france_2019.csv
+ 1348  cp alumni.csv javascript_biarritz_toulouse.csv
+ 1349  cp alumni.csv david.csv
+ 1350  ls
+ 1351  grep David david.csv 
+ 1352  grep David -0 david.csv alumni.csv 
+ 1353  grep David -o david.csv alumni.csv 
+ 1354  grep David -o alumni.csv david.csv 
+ 1355  cd alumni.csv
+ 1356  cp alumni.csv david.csv
+ 1357  cut -d , -f 1 david.csv 
+ 1358  cut David david.csv 
+ 1359  cut --help
+ 1360  cut -c David david.csv 
+ 1361  grep David alumni.csv > david.csv 
+ 1362  head alumni.csv 
+ 1363  grep "Biarritz,JavaScript" alumni.csv javascript_biarritz_toulouse.csv 
+ 1364  grep "Biarritz,JavaScript" alumni.csv > javascript_biarritz_toulouse.csv 
+ 1365  grep "Biarritz;JavaScript" alumni.csv > javascript_biarritz_toulouse.csv 
+ 1366  grep "Biarritz,JavaScript" < alumni.csv > javascript_biarritz_toulouse.csv 
+ 1367  man sort
+ 1368  man cat
+ 1369  man wc
+ 1370  grep "Biarritz,JavaScript" < alumni.csv 
+ 1371  grep Biarritz alumni.csv 
+ 1372  grep "Biarritz,JavaScript" alumni.csv 
+ 1373  grep "Biarritz;JavaScript" alumni.csv 
+ 1374  grep "Biarritz;JavaScript" < alumni.csv 
+ 1375  grep "Biarritz:JavaScript" < alumni.csv 
+ 1376  grep "Biarritz:JavaScript" alumni.csv 
+ 1377  grep JavaScript alumni.csv | grep "Biarritz|Toulouse" > javascript_biarritz_toulouse.csv 
+ 1378  grep JavaScript alumni.csv | grep -e "Toulouse" e- "Biarritz" > javascript_biarritz_toulouse.csv 
+ 1379  grep JavaScript alumni.csv | grep "Biarritz|Toulouse" | -u > javascript_biarritz_toulouse.csv 
+ 1380  grep JavaScript alumni.csv | grep "Biarritz|Toulouse" | > javascript_biarritz_toulouse.csv 
+ 1381  grep JavaScript alumni.csv
+ 1382  grep JavaScript alumni.csv | grep "Biarritz|Toulouse"
+ 1383  grep "Biarritz|Toulouse"
+ 1384  grep
+ 1385  cd
+ 1386  ls
+ 1387  cd Documents/
+ 1388  cd day00
+ 1389  ls
+ 1390  cd Day00
+ 1391  cd ex01
+ 1392  ls
+ 1393  grep "Biarritz|Toulouse" alumni.csv 
+ 1394  grep "Biarritz\|Toulouse" alumni.csv 
+ 1395  grep JavaScript alumni.csv | grep "Biarritz\|Toulouse" | > javascript_biarritz_toulouse.csv 
+ 1396  grep JavaScript alumni.csv | grep "Biarritz\|Toulouse"
+ 1397  grep JavaScript alumni.csv | grep "Biarritz\|Toulouse" > javascript_biarritz_toulouse.csv 
+ 1398  Telluriques
+ 1399  head alumni.csv 
+ 1400  grep PHP alumni.csv | grep France | grep 2019 > php_france_2019.csv 
+ 1401  cd ..
+ 1402  ls
+ 1403  cd ex02
+ 1404  touch bonjour.sh
+ 1405  grep PHP alumni.csv | grep France | grep 2019 | wc -l > php_france_2019.csv 
+ 1406  cd..
+ 1407  cd ..
+ 1408  cd ex01
+ 1409  grep PHP alumni.csv | grep France | grep 2019 | wc -l > php_france_2019.csv 
+ 1410  grep David alumni.csv | wc -l > david.csv 
+ 1411  cd ..
+ 1412  cd ex02
+ 1413  cd ..
+ 1414  cd ex01
+ 1415  cat david.csv 
+ 1416  cat php_france_2019.csv 
+ 1417  cat javascript_biarritz_toulouse.csv 
+ 1418  cd ..
+ 1419  cd ex02
+ 1420  chmod +x bonjour.sh 
+ 1421  ls -lra
+ 1422  vim bonjour.sh 
+ 1423  ./bonjour.sh 
+ 1424  cd ..
+ 1425  mkdir ex03
+ 1426  cd ex03
+ 1427  ./
+ 1428  cd ..
+ 1429  cd ex02
+ 1430  ./bonjour.sh 
+ 1431  vim bonjour.sh 
+ 1432  cd..
+ 1433  cd ex03
+ 1434  cd ..
+ 1435  cd ex03
+ 1436  pwd
+ 1437  pwd -t
+ 1438  ls -t
+ 1439  cd ..
+ 1440  ls -t
+ 1441  ls
+ 1442  ls -lt
+ 1443  cd ..
+ 1444  git status
+ 1445  ls -la
+ 1446  cd Day00
+ 1447  ls -la
+ 1448  git add --all
+ 1449  git commit -m"exo 0,1 et 2"
+ 1450  git push
+ 1451  cd ex03
+ 1452  cd ..
+ 1453  ls -lt
+ 1454  ls -lrt
+ 1455  ls -ld
+ 1456  ls -ld */
+ 1457  ls pwd
+ 1458  pwd
+ 1459  ls -lrt -ld µ/
+ 1460  ls -lrt -ld */
+ 1461  ls lrt */
+ 1462  ls -lrt */
+ 1463  ls -lrt
+ 1464  ls -lrt -f
+ 1465  ls -lrtf
+ 1466  ls -lrt
+ 1467  ls -lfrt
+ 1468  ls -lrt
+ 1469  ls -lrt -lf
+ 1470  ls -lrt
+ 1471  ls -lrt -F
+ 1472  man ls
+ 1473  ls -lrtF
+ 1474  ls --help
+ 1475  ls -lrtFm
+ 1476  ls -lrtF -m
+ 1477  ls -lrtF
+ 1478  ls -mlrtF
+ 1479  ls -lrtF --format=commas
+ 1480  ls -lrtFC --format=commas
+ 1481  ls -lrtF -C --format=commas
+ 1482  ls -lrtF -C
+ 1483  ls -lrtF
+ 1484  ls -lrtFC
+ 1485  ls -lrtF
+ 1486  ls -lCrtF
+ 1487  ls -lrtF
+ 1488  ls -lrtFm
+ 1489  ls -lrtFm1
+ 1490  ls -lrtF1
+ 1491  ls -lrtF1m
+ 1492  ls -lrtFm
+ 1493  ls -lrtFm -1
+ 1494  ls -1 -lrtFm
+ 1495  ls -lrtFm
+ 1496  ls -lrtFm --format=single-column
+ 1497  ls -lrtFmC
+ 1498  ls -lrtFm
+ 1499  ls -lrtFmA
+ 1500  ls -lrtFmw
+ 1501  ls -lrtFm -w5
+ 1502  ls -lrtFm -w100
+ 1503  ls -lrtFmx
+ 1504  ls -lrtFm
+ 1505  ls -lrtF
+ 1506  ls -rtF
+ 1507  ls -rtFm
+ 1508  ls -rtFmN
+ 1509  ls -rtFm --litteral
+ 1510  ls -rtFm --literal
+ 1511  ls -rtFmN
+ 1512  ls -rtFmN --quoting-style=literal
+ 1513  ls -rtFmN
+ 1514  man ls
+ 1515  ls -rtFm
+ 1516  man ls
+ 1517  ls -rtFmb
+ 1518  man ls
+ 1519  ls
+ 1520  mkdir ex04
+ 1521  ls -rtFm
+ 1522  cd ex2
+ 1523  cd ex01
+ 1524  cat php_france_2019.csv 
+ 1525  git log
+ 1526  ls
+ 1527  cd ..
+ 1528  cd ex4
+ 1529  cd ex04
+ 1530  touch git_commit.sh
+ 1531  commit
+ 1532  git commit
+ 1533  git add --all
+ 1534  git commit -m"ex03"
+ 1535  git push
+ 1536  git log
+ 1537  git push
+ 1538  man cat
+ 1539  vim git_commit.sh 
+ 1540  chmod +x git_commit.sh 
+ 1541  cat git_commit.sh 
+ 1542  ./git_commit.sh 
+ 1543  vim git_commit.sh 
+ 1544  ./git_commit.sh 
+ 1545  vim git_commit.sh 
+ 1546  ./git_commit.sh 
+ 1547  vim git_commit.sh 
+ 1548  ./git_commit.sh 
+ 1549  bash git_commit.sh | cat -e
+ 1550  vim git_commit.sh 
+ 1551  ./git_commit.sh 
+ 1552  bash git_commit.sh | cat -e
+ 1553  vim git_commit.sh 
+ 1554  ./git_commit.sh 
+ 1555  bash git_commit.sh | cat -e
+ 1556  vim git_commit.sh 
+ 1557  bash git_commit.sh | cat -e
+ 1558  vim git_commit.sh 
+ 1559  bash git_commit.sh | cat -e
+ 1560  ./git_commit.sh 
+ 1561  bash git_commit.sh | cat -e
+ 1562  man git
+ 1563  git-log
+ 1564  git-log(1)
+ 1565  git-log --help
+ 1566  git help --help
+ 1567  git log man
+ 1568  man git log
+ 1569  git log -n5
+ 1570  git log -n 5
+ 1571  man git log
+ 1572  cd
+ 1573  ls
+ 1574  cd Documents/
+ 1575  ls
+ 1576  cd Day00/
+ 1577  cd ex04
+ 1578  ls
+ 1579  git log -5
+ 1580  bash git_commit.sh | cat -e
+ 1581  vim git_commit.sh 
+ 1582  git log -5 --diff-merges=first-parent
+ 1583  git log ---diff-merges=first-parent
+ 1584  git log --first-parent
+ 1585  man auk
+ 1586  auk --help
+ 1587  man awk
+ 1588  cd ..
+ 1589  man git
+ 1590  git add
+ 1591  git add https://github.com/Antoine-Mulatier/Day01.git
+ 1592  git push https://github.com/Antoine-Mulatier/Day01.git
+ 1593  man git
+ 1594  git clone https://github.com/Antoine-Mulatier/Day01.git
+ 1595  ls
+ 1596  cd Day01
+ 1597  ls
+ 1598  cd ex00
+ 1599  cat deposition_Joe_Rugiani.txt 
+ 1600  sed
+ 1601  sed -i $d deposition_Joe_Rugiani.txt 
+ 1602  cat deposition_Joe_Rugiani.txt 
+ 1603  sed -i '$d' deposition_Joe_Rugiani.txt 
+ 1604  cat deposition_Joe_Rugiani.txt 
+ 1605  touch magic.txt
+ 1606  ls
+ 1607  vim magic.txt 
+ 1608  man head
+ 1609  head deposition_Joe_Rugiani.txt 
+ 1610  sed -i '$d' deposition_Joe_Rugiani.txt 
+ 1611  head deposition_Joe_Rugiani.txt 
+ 1612  head magic.txt 
+ 1613  cd ..
+ 1614  ls
+ 1615  man sed
+ 1616  cd ex00
+ 1617  cd ..
+ 1618  mkdir ex01
+ 1619  ls
+ 1620  cd ex00
+ 1621  cp deposition_Joe_Rugiani.txt ex01
+ 1622  cd ..
+ 1623  ls
+ 1624  cd ex00
+ 1625  ls
+ 1626  cd ..
+ 1627  cd ex01
+ 1628  ls
+ 1629  sed -i -e "s/\cadillac jaune/\chevrolet impala/g" deposition_Joe_Rugiani.txt 
+ 1630  cat deposition_Joe_Rugiani.txt 
+ 1631  touch magic.txt
+ 1632  vim magic.txt 
+ 1633  sed -i -e "s/\rouge/\vert/g" deposition_Joe_Rugiani.txt 
+ 1634  vim magic.txt 
+ 1635  cat magic.txt 
+ 1636  cat deposition_Joe_Rugiani.txt 
+ 1637  sed -i -e "s/\rouge/\vert/g" deposition_Joe_Rugiani.txt 
+ 1638  cat deposition_Joe_Rugiani.txt 
+ 1639  sed -i -e "s/rouge/vert/g" deposition_Joe_Rugiani.txt 
+ 1640  cat deposition_Joe_Rugiani.txt 
+ 1641  sed -i -e "s/cadillac jaune/chevrolet impala/g" deposition_Joe_Rugiani.txt 
+ 1642  cat deposition_Joe_Rugiani.txt 
+ 1643  vim magic.txt 
+ 1644  cat magic.txt 
+ 1645  cat deposition_Joe_Rugiani.txt 
+ 1646  cd ..
+ 1647  cd ex02
+ 1648  ls
+ 1649  grep Officer tcpd_department.csv 
+ 1650  touch tcpd_officers.txt
+ 1651  vim tcpd_
+ 1652  vim tcpd_officers.txt 
+ 1653  cat tcpd_officers.txt 
+ 1654  man awk
+ 1655  awk '/Officer/ {print}' tcpd_department.csv 
+ 1656  vim tcpd_officers.txt 
+ 1657  cat tcpd_department.csv 
+ 1658  awk '/Officer/ $3 >= 7 {print}' tcpd_department.csv 
+ 1659  awk '$3 >= 7 {print}' tcpd_department.csv 
+ 1660  awk '$0 >= 7 {print}' tcpd_department.csv 
+ 1661  awk ' >= 7 {print}' tcpd_department.csv 
+ 1662  awk '$3 >= 7 {print}' tcpd_department.csv 
+ 1663  awk -F '$3 >= 7 {print}' tcpd_department.csv 
+ 1664  awk -F '$3 >= 7 {print}' tcpd_department.csv
+ 1665  awk -F tcpd_department.csv 
+ 1666  awk -F '{print}' tcpd_department.csv 
+ 1667  awk -F: '{print}' tcpd_department.csv 
+ 1668  awk -F: '$3 >= 7 {print}' tcpd_department.csv
+ 1669  cat tcpd_department.csv 
+ 1670  awk '$0 >=7 {print}' tcpd_department.csv 
+ 1671  awk '$NF >=7 {print}' tcpd_department.csv 
+ 1672  awk '$NF >=7 {print}' tcpd_department.csv 
+ 1673  awk '$NF >= 7 {print}' tcpd_department.csv 
+ 1674  awk -F: ' {print}' tcpd_department.csv 
+ 1675  awk -F, '{print}' tcpd_department.csv 
+ 1676  awk -F, '{print $NF}' tcpd_department.csv 
+ 1677  awk -F, '{print $3}' tcpd_department.csv 
+ 1678  awk -F, '{print $2}' tcpd_department.csv 
+ 1679  awk -F, '/Officer/ $NF >= 7 {print}' tcpd_department.csv 
+ 1680  awk -F, '/Officer/ $3 >= 7 {print}' tcpd_department.csv 
+ 1681  awk -F, '$3 >= 7 {print}' tcpd_department.csv 
+ 1682  awk -F, '$3 >= 7 /Officer/ {print}' tcpd_department.csv 
+ 1683  awk -F, '$3 >= 7, /Officer/ {print}' tcpd_department.csv 
+ 1684  awk -F, '$3 >= 7 {print}' tcpd_department.csv 
+ 1685  awk -F, '/Officer/ | $3 >= 7 {print}' tcpd_department.csv 
+ 1686  awk -F, '/Officer/ $3 >= 7 {print}' tcpd_department.csv 
+ 1687  cd ..
+ 1688  cd ex00
+ 1689  cat deposition_Joe_Rugiani.txt 
+ 1690  cd ..
+ 1691  cd ex02
+ 1692  awk -F, '/Officer/ $3 >= 7 {print}' tcpd_department.csv 
+ 1693  awk -F, '$3 >= 7 {print}' tcpd_department.csv 
+ 1694  awk -F, '/Officer/' '$3 >= 7 {print}' tcpd_department.csv 
+ 1695  awk -F, '/Officer/ {print}' tcpd_department.csv 
+ 1696  awk -F, '/Officer/ $3 >= 7 {print}' tcpd_department.csv 
+ 1697  awk -F, '$3 >= 8 {print}' tcpd_department.csv 
+ 1698  awk -F, '$3 = 8 {print}' tcpd_department.csv 
+ 1699  awk -F, '$3 >= 8 {print}' tcpd_department.csv 
+ 1700  awk -F, '(/Officer/) ($3 >= 8) {print}' tcpd_department.csv 
+ 1701  awk -F, '(/Officer/) && ($3 >= 8) {print}' tcpd_department.csv 
+ 1702  touch tcpd_expert_officer.txt
+ 1703  vim tcpd_expert_officer.txt 
+ 1704  /cd
+ 1705  cd ..
+ 1706  git add --all
+ 1707  git commit -m"ex00 ex01 ex02"
+ 1708  git push
+ 1709  cd ex03
+ 1710  cd mystery
+ 1711  ls
+ 1712  cd Murder_in_terminal_city/
+ 1713  cd mystery/
+ 1714  ls
+ 1715  cat crimescene 
+ 1716  awk '/CLUE/ {print}'
+ 1717  cd
+ 1718  ls
+ 1719  cd Documents/
+ 1720  cd Day01
+ 1721  ls
+ 1722  cd ex03
+ 1723  ls
+ 1724  cd Murder_in_terminal_city/
+ 1725  ls
+ 1726  cd mystery/
+ 1727  ls
+ 1728  awk '/CLUE/ {print}' crimescene 
+ 1729  grep CLUE crimescene 
+ 1730  grep Annabel crimescene 
+ 1731  grep blond crimescene 
+ 1732  awk '/Annabel/ {print}' crimescene 
+ 1733  ls
+ 1734  awk '/Annabel/ {print}' people 
+ 1735  grap Annabel people 
+ 1736  grep Annabel people 
+ 1737  cd streets/
+ 1738  grep Hart_Place 
+ 1739  cat Hart_Place 
+ 1740  cd ..
+ 1741  ls
+ 1742  grep Annabel people 
+ 1743  cd streets/
+ 1744  read 40
+ 1745  cd Hart_Place
+ 1746  awk NR==40 Hart_Place
+ 1747  cd..
+ 1748  cd ..
+ 1749  ls
+ 1750  cd interviews/
+ 1751  cat interview-47246024
+ 1752  cd ..
+ 1753  cd streets/
+ 1754  awk NR==179 Buckingham_Place 
+ 1755  cd ..
+ 1756  cd interviews/
+ 1757  cat interview 699607
+ 1758  cat interview-699607
+ 1759  cd ..
+ 1760  ls
+ 1761  grep L337 vehicles 
+ 1762  grep Blue | grep Honda | grep L337 > vehicles 
+ 1763  ls
+ 1764  grep Blue | grep Honda | grep L337  
+ 1765  grep Blue | grep Honda | grep L337 vehicles 
+ 1766  grep Blue vehicles 
+ 1767  grep "Blue|Honda|L337" vehicles 
+ 1768  grep L337 vehicles 
+ 1769  awk '(/Honda/) && (/Blue) && (/L337/) {print}' vehicles 
+ 1770  awk '/Blue/ && /Honda/ && /L337/ {print}' vehicles 
+ 1771  awk '/Blue/ && /Honda/ {print}' vehicles 
+ 1772  awk '/Blue/ && /Honda/' vehicles 
+ 1773  awk -F: '/Blue/ && /Honda/ && /L337/'
+ 1774  awk -F: '/Blue/ && /Honda/ && /L337/' vehicles 
+ 1775  awk -F: '/Blue/ && /Honda/ && /L337/' vehicles
+ 1776  awk -F'License Plate' '/Blue/ && /Honda/ && /L337/' vehicles
+ 1777  awk -F'License Plate' '/Blue/ && /Honda/' vehicles
+ 1778  awk Blue vehicles 
+ 1779  awk 'Blue' vehicles 
+ 1780  /ls
+ 1781  ls
+ 1782  grep Blue vehicles 
+ 1783  awk '/Blue/ {print}' vehicles 
+ 1784  awk -F: '/Blue/ {print $2}' vehicles 
+ 1785  awk -F: '/Honda/ {print $2}' vehicles 
+ 1786  awk -F: '/Honda/ && /Blue/ {print $2}' vehicles 
+ 1787  awk -F: '/Honda/ && /Blue/ {print}' vehicles 
+ 1788  awk -F: '/Honda/ && /Blue/ {print $2,$3}' vehicles 
+ 1789  cd ..
+ 1790  cd ex02
+ 1791  awk '/Officer/ {print}' tcpd_department.csv 
+ 1792  awk '/Officer/' tcpd_department.csv 
+ 1793  awk '/Officer/ {print $2}' tcpd_department.csv 
+ 1794  awk -F, '/Officer/ {print $2}' tcpd_department.csv 
+ 1795* awk -F, '/Officer/' tcpd_department.csv 
+ 1796  cd ..
+ 1797  cd ex03
+ 1798  cd Murder_in_terminal_city/
+ 1799  cd mystery/
+ 1800  ls
+ 1801  awk '/^L337/ && /9$/ {print}' vehicles 
+ 1802  awk '/^L337/ {print}' vehicles 
+ 1803  awk '/^L337/{print}' vehicles 
+ 1804  awk '/^7/{print}' vehicles 
+ 1805  awk '/^L/{print}' vehicles 
+ 1806  awk '/^L3/{print}' vehicles 
+ 1807  awk -F"License Plate" '/Blue/ {print}'
+ 1808  awk -F"License Plate" '/Blue/ {print}' vehicles 
+ 1809  awk -F"License Plate" '/Blue/ && /Honda/ {print}' vehicles 
+ 1810  awk -F"License Plate" '/Honda/ {print}' vehicles 
+ 1811  awk -F"License Plate" '/Honda/ {print}' vehicles | awk '/Blue/ {print}'
+ 1812  awk -F"License Plate" '{print $1}'
+ 1813  awk -F"License Plate" '{print $1}' vehicles 
+ 1814  awk -F"License Plate" '{print $2}' vehicles 
+ 1815  awk -F"License Plate" '{print $3}' vehicles 
+ 1816  awk -F"License Plate" '{print $1}' vehicles 
+ 1817  awk -F"License Plate" '{print $2}' vehicles 
+ 1818  grep -i "L337..9"
+ 1819  grep -i "L337..9" vehicles 
+ 1820  grep -A 5 "License Plate L337ZR9" vehicles 
+ 1821  grep -A 5 "License Plate L337..9" vehicles 
+ 1822  grep -A 5 "License Plate L337..9" vehicles | grep Honda
+ 1823  grep -A 5 "License Plate L337..9" vehicles 
+ 1824  ls
+ 1825  cd memberships/
+ 1826  ls
+ 1827  grep "Joe Germuska" AAA
+ 1828  grep "Jeremy Bowers" AAA
+ 1829  cd ..
+ 1830  ls
+ 1831  cd streets
+ 1832  ls
+ 1833  cd ..
+ 1834  ls
+ 1835  grep "Joe Germuska" people 
+ 1836  grep "Jeremy Bowers" people 
+ 1837  grep "Jacqui Maher" people 
+ 1838  grep "Erika Owens" people 
+ 1839  cd ..
+ 1840  ls
+ 1841  cd mystery/
+ 1842  ls
+ 1843  cd streets/
+ 1844  head 284 Dunstable_Road 
+ 1845  head m-284 Dunstable_Road 
+ 1846  head -m 284 Dunstable_Road 
+ 1847  head -l 284 Dunstable_Road 
+ 1848  cat 
+ 1849  cat Dunstable_Road 
+ 1850  man head
+ 1851  head -n 284
+ 1852  head -n 284 Dunstable_Road 
+ 1853  man head
+ 1854  head -284 Dunstable_Road 
+ 1855  history
+ 1856  awk NR==284 Dunstable_Road 
+ 1857  awk NR==275 Plainfield_Street 
+ 1858  cd ..
+ 1859  ls
+ 1860  cd interviews/
+ 1861  cat interview-9620713 
+ 1862  cat interview-29741223 
+ 1863  cd ..
+ 1864  ls
+ 1865  grep -A 5 "License Plate L337..9" vehicles 
+ 1866  :ls
+ 1867  ls
+ 1868  cd ..
+ 1869  ls
+ 1870  cd ..
+ 1871  history > Historique.txt

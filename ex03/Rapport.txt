@@ -1,0 +1,44 @@
+Début de l'enquête:
+
+J'ai cherché les indices dans le fichiers "crimescene" avec la commande:
+"grep CLUE crimescene"
+
+Avec les trois indices on apprend qu'une caméra a enregistrée de manière flou l'auteur du crime mais on sait qu'il fait au moins 6'(+ 1m80),
+qu'on a aussi retrouvé un portefeuille qui apartiendrait au tueur, pas de carte d'identité, un peu de monnaie et des cartes de membres chez AAA, Delta SkyMiles, la librairie locale et le Musée historique du Bash. Les cartes sont totalement intraçables et elles n'ont pas de noms. Le barman du café du coin a vu une femme quitté l'endroit juste avant les coups de feux. Le nom sur son café était "Annabel" cheveux blond et un accent de la nouvelle Zeland.
+
+je regarde ensuite toutes les Annabel dans les pages jaunes (people) avec la commande
+"Grep Annabel people"
+
+On obtiens alors 4 résultats mais seulement deux sont des femmes, je note leur adresse et je m'en vais dans les rues pour avoir plus d'infos. 
+
+
+Comme le stipule les instructions je recherche le lieux avec la ligne pour obtenir plus d'infos avec la commande:
+"awk NR==40 Hart_Place"
+J'obtiens alors un numéro d'interview que je note pour plus tard et je vais chercher l'autre Annabel et je fais de même.
+
+De retour au poste je consulte les numéros des interviews:
+"cat interview-47246024"
+C'est bien une Annabel mais elle a les cheveux bruns et elle est pas de la nouvelle Zeland, c'est donc pas notre témoin.
+"cat interview-699607"
+C'est la bonne Annabel, elle a vu personne qu'elle pourrait identifier comme le tueur, elle a couru dès qu'elle a entendu les tirs. Cependant elle a vu une voiture s'enfuir, c'était une Honda bleue, la plaque commençait par "L337" et terminait par un "9".
+
+
+Au poste je recherche donc les plaques qui commencent par L337 et qui terminent par 9 avec la commande
+"grep -A 5 "License Plate L337..9" vehicles" 
+
+J'ai alors une liste de 13 véhicules mais seulement 4 personnes ont une honda bleue et font au dessus de 1m80, je note alors tous les noms.
+
+Je fais une recherche de ces 4 personnes dans les pages jaunes, deux sont des femmes et je peux donc les éliminer, il me reste alors deux suspects:
+-Joe Germuska
+-Jeremy Bower
+
+Je retourne dans les rues pour vérifier leur numéro d'interview.
+L'interview de Jeremy Bowers: Il n'a pas l'air d'être chez lui, pas de réponse. après avoir questionné ses voisins il serait partie en voyage recemment.
+
+L'interview de Joe Germuska: Ne doit pas être considéré comme un suspect, il a pas de carte de membre chez SkyMiles et n'a jamais été membre au Musée.
+
+On peut donc être certain qu'il s'agit de Jeremy Bowers car il s'agit donc du seul suspect après enquête.
+
+Pour confirmer on peut vérifier s'il est bien membre des différents endroits respectifs avec un:
+"grep Jeremy Bowers AAA" 
+et aussi pour les autres lieux, et il apparait bien dans chaque lieux mentionnés.
